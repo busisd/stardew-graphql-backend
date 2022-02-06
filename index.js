@@ -6,10 +6,17 @@ const { ApolloServer, gql } = require('apollo-server');
 const typeDefs = gql`
   # Comments in GraphQL strings (such as this one) start with the hash (#) symbol.
 
+  enum Color {
+    RED
+    GREEN
+    BLUE
+  }
+
   # This "Book" type defines the queryable fields for every book in our data source.
   type Book {
     title: String
     author: String
+    color: Color
   }
 
   # The "Query" type is special: it lists all of the available queries that
@@ -24,10 +31,12 @@ const books = [
   {
     title: 'The Awakening',
     author: 'Kate Chopin',
+    color: 'RED'
   },
   {
     title: 'City of Glass',
     author: 'Paul Auster',
+    color: 'BLUE'
   },
 ];
 
