@@ -1,5 +1,5 @@
-const { ApolloServer, gql } = require('apollo-server');
-const { FishData } = require('./SmallFishData');
+const { ApolloServer, gql } = require("apollo-server");
+const { FishData } = require("./SmallFishData");
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
@@ -47,7 +47,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    fish: [Fish]
+    fish(name: String): [Fish]
   }
 `;
 
@@ -55,7 +55,9 @@ const typeDefs = gql`
 // schema. This resolver retrieves books from the "books" array above.
 const resolvers = {
   Query: {
-    fish: () => FishData,
+    fish: (parent, args, context, info) => {
+      return args.name ? FishData.filter((fish) => fish.name === args.name) : FishData;
+    },
   },
 };
 
