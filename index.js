@@ -5,16 +5,45 @@ const { FishData } = require('./SmallFishData');
 // that together define the "shape" of queries that are executed against
 // your data.
 const typeDefs = gql`
+  enum Season {
+    Spring
+    Summer
+    Fall
+    Winter
+  }
+
+  enum Weather {
+    Sunny
+    Rainy
+  }
+
+  enum Location {
+    Ocean
+    River
+    NightMarket
+  }
+
+  type CatchOpportunity {
+    season: Season
+    weather: [Weather]
+    locations: [Location]
+    times: [String]
+  }
+
   type Prices {
     normal: Int
     silver: Int
     gold: Int
     iridium: Int
-  } 
+  }
 
   type Fish {
     name: String
     prices: Prices
+    catchOpportunities: [CatchOpportunity]
+    catchDifficulty: String
+    legendary: Boolean
+    bundle: String
   }
 
   type Query {
