@@ -6,21 +6,21 @@ const { FishData } = require('./SmallFishData');
 // your data.
 const typeDefs = gql`
   enum Season {
-    Spring
-    Summer
-    Fall
-    Winter
+    SPRING
+    SUMMER
+    FALL
+    WINTER
   }
 
   enum Weather {
-    Sunny
-    Rainy
+    SUNNY
+    RAINY
   }
 
   enum Location {
-    Ocean
-    River
-    NightMarket
+    OCEAN
+    RIVER
+    NIGHT_MARKET
   }
 
   type CatchOpportunity {
