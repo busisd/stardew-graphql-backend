@@ -48,8 +48,15 @@ const typeDefs = gql`
 
   type Query {
     fish(name: String): [Fish]
+    count: Int
+  }
+
+  type Mutation {
+    incrementCount: Int
   }
 `;
+
+let totalCount = 0;
 
 // Resolvers define the technique for fetching the types defined in the
 // schema. This resolver retrieves books from the "books" array above.
@@ -58,7 +65,11 @@ const resolvers = {
     fish: (parent, args, context, info) => {
       return args.name ? FishData.filter((fish) => fish.name === args.name) : FishData;
     },
+    count: (parent, args, context, info) => totalCount
   },
+  Mutation: {
+    incrementCount: () => ++totalCount
+  }
 };
 
 // The ApolloServer constructor requires two parameters: your schema
