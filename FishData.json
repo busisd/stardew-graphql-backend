@@ -1,1236 +1,2100 @@
 [
   {
-    "name": "Albacore",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 11 AM"
-      },
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 PM - 2 AM"
-      }
+    "id": "128",
+    "availableSeasons": [
+      "Summer",
+      "Spring",
+      "Fall",
+      "Winter"
     ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Anchovy",
-    "price_normal": 30,
-    "price_silver": 37,
-    "price_gold": 45,
-    "price_iridium": 60,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "No"
-  },
-  {
-    "name": "Angler",
-    "price_normal": 900,
-    "price_silver": 1125,
-    "price_gold": 1350,
-    "price_iridium": 1800,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "Any"
-      }
-    ],
-    "legendary": true,
-    "catch_difficulty": "Very hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Blob Fish",
-    "price_normal": 500,
-    "price_silver": 625,
-    "price_gold": 750,
-    "price_iridium": 1000,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Night Market",
-        "time": "5 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Bream",
-    "price_normal": 45,
-    "price_silver": 56,
-    "price_gold": 67,
-    "price_iridium": 90,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "6 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "Night Fishing Bundle"
-  },
-  {
-    "name": "Bullhead",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "Lake Fish Bundle"
-  },
-  {
-    "name": "Carp",
-    "price_normal": 30,
-    "price_silver": 37,
-    "price_gold": 45,
-    "price_iridium": 60,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      },
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Secret Woods",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Easy",
-    "bundle": "Lake Fish Bundle"
-  },
-  {
-    "name": "Catfish",
-    "price_normal": 200,
-    "price_silver": 250,
-    "price_gold": 300,
-    "price_iridium": 400,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "Secret Woods",
-        "time": "Any"
-      },
-      {
-        "spring": true,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "River",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "River Fish Bundle"
-  },
-  {
-    "name": "Chub",
-    "price_normal": 50,
-    "price_silver": 62,
-    "price_gold": 75,
-    "price_iridium": 100,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      },
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "Field Research Bundle"
-  },
-  {
-    "name": "Crimsonfish",
-    "price_normal": 2250,
-    "price_silver": 2812,
-    "price_gold": 3375,
-    "price_iridium": 4500,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "Any"
-      }
-    ],
-    "legendary": true,
-    "catch_difficulty": "Extreme",
-    "bundle": "No"
-  },
-  {
-    "name": "Dorado",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Eel",
-    "price_normal": 85,
-    "price_silver": 106,
-    "price_gold": 127,
-    "price_iridium": 170,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "Ocean",
-        "time": "4 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "Night Fishing Bundle"
-  },
-  {
-    "name": "Flounder",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 8 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Ghostfish",
-    "price_normal": 45,
-    "price_silver": 56,
-    "price_gold": 67,
-    "price_iridium": 90,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mines",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "Specialty Fish Bundle"
-  },
-  {
-    "name": "Glacierfish",
-    "price_normal": 1000,
-    "price_silver": 1250,
-    "price_gold": 1500,
-    "price_iridium": 2000,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "6 AM - 11 PM"
-      }
-    ],
-    "legendary": true,
-    "catch_difficulty": "Extreme",
-    "bundle": "No"
-  },
-  {
-    "name": "Halibut",
-    "price_normal": 80,
-    "price_silver": 100,
-    "price_gold": 120,
-    "price_iridium": 160,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Herring",
-    "price_normal": 30,
-    "price_silver": 37,
-    "price_gold": 45,
-    "price_iridium": 60,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Easy",
-    "bundle": "No"
-  },
-  {
-    "name": "Ice Pip",
-    "price_normal": 500,
-    "price_silver": 625,
-    "price_gold": 750,
-    "price_iridium": 1000,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mines",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Largemouth Bass",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "Lake Fish Bundle"
-  },
-  {
-    "name": "Lava Eel",
-    "price_normal": 700,
-    "price_silver": 875,
-    "price_gold": 1050,
-    "price_iridium": 1400,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mines",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Extreme",
-    "bundle": "No"
-  },
-  {
-    "name": "Legend",
-    "price_normal": 5000,
-    "price_silver": 6250,
-    "price_gold": 7500,
-    "price_iridium": 10000,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": false,
-        "fall": false,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "Mountain Lake",
-        "time": "6 AM - 11 PM"
-      }
-    ],
-    "legendary": true,
-    "catch_difficulty": "Extreme",
-    "bundle": "No"
-  },
-  {
-    "name": "Lingcod",
-    "price_normal": 120,
-    "price_silver": 150,
-    "price_gold": 180,
-    "price_iridium": 240,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      },
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Midnight Carp",
-    "price_normal": 150,
-    "price_silver": 187,
-    "price_gold": 225,
-    "price_iridium": 300,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "10 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Midnight Squid",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Night Market",
-        "time": "5 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Mutant Carp",
-    "price_normal": 1000,
-    "price_silver": 1250,
-    "price_gold": 1500,
-    "price_iridium": 2000,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Sewers",
-        "time": "Any"
-      }
-    ],
-    "legendary": true,
-    "catch_difficulty": "Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Octopus",
-    "price_normal": 150,
-    "price_silver": 187,
-    "price_gold": 225,
-    "price_iridium": 300,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 1 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Extreme",
-    "bundle": "No"
-  },
-  {
-    "name": "Perch",
-    "price_normal": 55,
-    "price_silver": 68,
-    "price_gold": 82,
-    "price_iridium": 110,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      },
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "No"
-  },
-  {
-    "name": "Pike",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      },
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "No"
-  },
-  {
     "name": "Pufferfish",
-    "price_normal": 200,
-    "price_silver": 250,
-    "price_gold": 300,
-    "price_iridium": 400,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": false,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "12 AM - 4 PM"
-      }
+    "chanceToDart": "80",
+    "dartingRandomness": "floater",
+    "minSize": "1",
+    "maxSize": "36",
+    "timeRanges": "1200 1600",
+    "weather": "sunny",
+    "maxDepth": "4",
+    "spawnMultiplier": ".3",
+    "depthMultiplier": ".5",
+    "fishingLevel": "0",
+    "price": "200",
+    "edibility": "-40",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Pufferfish",
+    "description": "Inflates when threatened.",
+    "Summer": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave"
     ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "Specialty Fish Bundle"
+    "Spring": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave"
+    ],
+    "Fall": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave"
+    ],
+    "Winter": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave"
+    ]
   },
   {
-    "name": "Rainbow Trout",
-    "price_normal": 65,
-    "price_silver": 81,
-    "price_gold": 97,
-    "price_iridium": 130,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": false,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "6 AM - 7 PM"
-      },
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": false,
-        "sunny": true,
-        "location": "River",
-        "time": "6 AM - 7 PM"
-      }
+    "id": "129",
+    "availableSeasons": [
+      "Spring",
+      "Fall"
     ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
+    "name": "Anchovy",
+    "chanceToDart": "30",
+    "dartingRandomness": "dart",
+    "minSize": "1",
+    "maxSize": "16",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".25",
+    "depthMultiplier": ".3",
+    "fishingLevel": "0",
+    "price": "30",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Anchovy",
+    "description": "A small silver fish found in the ocean.",
+    "Spring": [
+      "Beach"
+    ],
+    "Fall": [
+      "Beach"
+    ]
   },
   {
-    "name": "Red Mullet",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 7 PM"
-      }
+    "id": "130",
+    "availableSeasons": [
+      "Summer",
+      "Winter",
+      "Spring",
+      "Fall"
     ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Red Snapper",
-    "price_normal": 50,
-    "price_silver": 62,
-    "price_gold": 75,
-    "price_iridium": 100,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "Ocean",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "Ocean Fish Bundle"
-  },
-  {
-    "name": "Salmon",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Sandfish",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Desert",
-        "time": "6 AM - 10 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "Specialty Fish Bundle"
-  },
-  {
-    "name": "Sardine",
-    "price_normal": 40,
-    "price_silver": 50,
-    "price_gold": 60,
-    "price_iridium": 80,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "Ocean Fish Bundle"
-  },
-  {
-    "name": "Scorpion Carp",
-    "price_normal": 150,
-    "price_silver": 187,
-    "price_gold": 225,
-    "price_iridium": 300,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Desert",
-        "time": "6 AM - 10 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Extreme",
-    "bundle": "No"
-  },
-  {
-    "name": "Sea Cucumber",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "No"
-  },
-  {
-    "name": "Shad",
-    "price_normal": 60,
-    "price_silver": 75,
-    "price_gold": 90,
-    "price_iridium": 120,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "River",
-        "time": "9 AM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "River Fish Bundle"
-  },
-  {
-    "name": "Slimejack",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mutant Bug Lair",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "No"
-  },
-  {
-    "name": "Smallmouth Bass",
-    "price_normal": 50,
-    "price_silver": 62,
-    "price_gold": 75,
-    "price_iridium": 100,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Easy",
-    "bundle": "No"
-  },
-  {
-    "name": "Spook Fish",
-    "price_normal": 220,
-    "price_silver": 275,
-    "price_gold": 330,
-    "price_iridium": 440,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Night Market",
-        "time": "5 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Squid",
-    "price_normal": 80,
-    "price_silver": 100,
-    "price_gold": 120,
-    "price_iridium": 160,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Stonefish",
-    "price_normal": 300,
-    "price_silver": 375,
-    "price_gold": 450,
-    "price_iridium": 600,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mines",
-        "time": "Any"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Sturgeon",
-    "price_normal": 200,
-    "price_silver": 250,
-    "price_gold": 300,
-    "price_iridium": 400,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Mountain Lake",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "Lake Fish Bundle"
-  },
-  {
-    "name": "Sunfish",
-    "price_normal": 30,
-    "price_silver": 37,
-    "price_gold": 45,
-    "price_iridium": 60,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": false,
-        "winter": false,
-        "rainy": false,
-        "sunny": true,
-        "location": "River",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Easy",
-    "bundle": "River Fish Bundle"
-  },
-  {
-    "name": "Super Cucumber",
-    "price_normal": 250,
-    "price_silver": 312,
-    "price_gold": 375,
-    "price_iridium": 500,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 PM - 2 AM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "No"
-  },
-  {
-    "name": "Tiger Trout",
-    "price_normal": 150,
-    "price_silver": 187,
-    "price_gold": 225,
-    "price_iridium": 300,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "River",
-        "time": "6 AM - 7 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "River Fish Bundle"
-  },
-  {
-    "name": "Tilapia",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 2 PM"
-      }
-    ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "Ocean Fish Bundle"
-  },
-  {
     "name": "Tuna",
-    "price_normal": 100,
-    "price_silver": 125,
-    "price_gold": 150,
-    "price_iridium": 200,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": true,
-        "fall": false,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Ocean",
-        "time": "6 AM - 2 PM"
-      }
+    "chanceToDart": "70",
+    "dartingRandomness": "smooth",
+    "minSize": "12",
+    "maxSize": "60",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".15",
+    "depthMultiplier": ".55",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Tuna",
+    "description": "A large fish that lives in the ocean.",
+    "Summer": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
     ],
-    "legendary": false,
-    "catch_difficulty": "Hard",
-    "bundle": "Ocean Fish Bundle"
+    "Winter": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Spring": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Fall": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ]
   },
   {
-    "name": "Void Salmon",
-    "price_normal": 150,
-    "price_silver": 187,
-    "price_gold": 225,
-    "price_iridium": 300,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Witch's Swamp",
-        "time": "Any"
-      }
+    "id": "131",
+    "availableSeasons": [
+      "Spring",
+      "Fall",
+      "Winter"
     ],
-    "legendary": false,
-    "catch_difficulty": "Very Hard",
-    "bundle": "No"
+    "name": "Sardine",
+    "chanceToDart": "30",
+    "dartingRandomness": "dart",
+    "minSize": "1",
+    "maxSize": "12",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".65",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "40",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Sardine",
+    "description": "A common ocean fish.",
+    "Spring": [
+      "Beach"
+    ],
+    "Fall": [
+      "Beach"
+    ],
+    "Winter": [
+      "Beach"
+    ]
   },
   {
+    "id": "132",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Bream",
+    "chanceToDart": "35",
+    "dartingRandomness": "smooth",
+    "minSize": "12",
+    "maxSize": "30",
+    "timeRanges": "1800 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "45",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Bream",
+    "description": "A fairly common river fish that becomes active at night.",
+    "Spring": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Summer": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Fall": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Winter": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ]
+  },
+  {
+    "id": "136",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Largemouth Bass",
+    "chanceToDart": "50",
+    "dartingRandomness": "mixed",
+    "minSize": "11",
+    "maxSize": "30",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Largemouth Bass",
+    "description": "A popular fish that lives in lakes.",
+    "Spring": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Summer": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Fall": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Winter": [
+      "Mountain",
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "137",
+    "availableSeasons": [
+      "Spring",
+      "Fall",
+      "Summer",
+      "Winter"
+    ],
+    "name": "Smallmouth Bass",
+    "chanceToDart": "28",
+    "dartingRandomness": "mixed",
+    "minSize": "12",
+    "maxSize": "24",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "50",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Smallmouth Bass",
+    "description": "A freshwater fish that is very sensitive to pollution.",
+    "Spring": [
+      "ForestPond",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Fall": [
+      "ForestPond",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Summer": [
+      "fishingGame",
+      "Temp"
+    ],
+    "Winter": [
+      "fishingGame",
+      "Temp"
+    ]
+  },
+  {
+    "id": "138",
+    "availableSeasons": [
+      "Summer"
+    ],
+    "name": "Rainbow Trout",
+    "chanceToDart": "45",
+    "dartingRandomness": "mixed",
+    "minSize": "10",
+    "maxSize": "25",
+    "timeRanges": "600 1900",
+    "weather": "sunny",
+    "maxDepth": "2",
+    "spawnMultiplier": ".35",
+    "depthMultiplier": ".3",
+    "fishingLevel": "0",
+    "price": "65",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Rainbow Trout",
+    "description": "A freshwater trout with colorful markings.",
+    "Summer": [
+      "ForestRiver",
+      "Town",
+      "Mountain",
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "139",
+    "availableSeasons": [
+      "Fall"
+    ],
+    "name": "Salmon",
+    "chanceToDart": "50",
+    "dartingRandomness": "mixed",
+    "minSize": "24",
+    "maxSize": "65",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Salmon",
+    "description": "Swims upstream to lay its eggs.",
+    "Fall": [
+      "ForestRiver",
+      "Town"
+    ]
+  },
+  {
+    "id": "140",
+    "availableSeasons": [
+      "Fall",
+      "Winter"
+    ],
     "name": "Walleye",
-    "price_normal": 105,
-    "price_silver": 131,
-    "price_gold": 157,
-    "price_iridium": 210,
-    "catch_opportunities": [
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "Mountain Lake",
-        "time": "12 PM - 2 AM"
-      },
-      {
-        "spring": false,
-        "summer": false,
-        "fall": true,
-        "winter": false,
-        "rainy": true,
-        "sunny": false,
-        "location": "River",
-        "time": "12 PM - 2 AM"
-      }
+    "chanceToDart": "45",
+    "dartingRandomness": "smooth",
+    "minSize": "10",
+    "maxSize": "40",
+    "timeRanges": "1200 2600",
+    "weather": "rainy",
+    "maxDepth": "2",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".15",
+    "fishingLevel": "0",
+    "price": "105",
+    "edibility": "12",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Walleye",
+    "description": "A freshwater fish caught at night.",
+    "Fall": [
+      "ForestRiver",
+      "ForestPond",
+      "Town",
+      "Mountain",
+      "Backwoods"
     ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "Night Fishing Bundle"
+    "Winter": [
+      "ForestRiver",
+      "ForestPond",
+      "Town",
+      "Mountain",
+      "Backwoods"
+    ]
   },
   {
-    "name": "Woodskip",
-    "price_normal": 75,
-    "price_silver": 93,
-    "price_gold": 112,
-    "price_iridium": 150,
-    "catch_opportunities": [
-      {
-        "spring": true,
-        "summer": true,
-        "fall": true,
-        "winter": true,
-        "rainy": true,
-        "sunny": true,
-        "location": "Secret Woods",
-        "time": "Any"
-      }
+    "id": "141",
+    "availableSeasons": [
+      "Winter"
     ],
-    "legendary": false,
-    "catch_difficulty": "Medium",
-    "bundle": "Specialty Fish Bundle"
+    "name": "Perch",
+    "chanceToDart": "35",
+    "dartingRandomness": "dart",
+    "minSize": "10",
+    "maxSize": "24",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "55",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Perch",
+    "description": "A freshwater fish of the winter.",
+    "Winter": [
+      "ForestRiver",
+      "ForestPond",
+      "Town",
+      "Mountain",
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "142",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Carp",
+    "chanceToDart": "15",
+    "dartingRandomness": "mixed",
+    "minSize": "15",
+    "maxSize": "50",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "30",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Carp",
+    "description": "A common pond fish.",
+    "Spring": [
+      "Mountain",
+      "Backwoods",
+      "Woods",
+      "Sewer",
+      "BugLand"
+    ],
+    "Summer": [
+      "Mountain",
+      "Backwoods",
+      "Woods",
+      "Sewer",
+      "BugLand"
+    ],
+    "Fall": [
+      "Mountain",
+      "Backwoods",
+      "Woods",
+      "Sewer",
+      "BugLand"
+    ],
+    "Winter": [
+      "Woods",
+      "Sewer",
+      "BugLand"
+    ]
+  },
+  {
+    "id": "143",
+    "availableSeasons": [
+      "Spring",
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "name": "Catfish",
+    "chanceToDart": "75",
+    "dartingRandomness": "mixed",
+    "minSize": "12",
+    "maxSize": "72",
+    "timeRanges": "600 2400",
+    "weather": "rainy",
+    "maxDepth": "4",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "200",
+    "edibility": "20",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Catfish",
+    "description": "An uncommon fish found in streams.",
+    "Spring": [
+      "ForestRiver",
+      "Town",
+      "Woods",
+      "WitchSwamp",
+      "fishingGame",
+      "Temp"
+    ],
+    "Fall": [
+      "ForestRiver",
+      "Town",
+      "Woods",
+      "WitchSwamp",
+      "fishingGame",
+      "Temp"
+    ],
+    "Winter": [
+      "ForestRiver",
+      "Town",
+      "Woods",
+      "WitchSwamp",
+      "fishingGame",
+      "Temp"
+    ],
+    "Summer": [
+      "Woods",
+      "WitchSwamp",
+      "fishingGame",
+      "Temp"
+    ]
+  },
+  {
+    "id": "144",
+    "availableSeasons": [
+      "Summer",
+      "Winter"
+    ],
+    "name": "Pike",
+    "chanceToDart": "60",
+    "dartingRandomness": "dart",
+    "minSize": "15",
+    "maxSize": "60",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".15",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Pike",
+    "description": "A freshwater fish that's difficult to catch.",
+    "Summer": [
+      "ForestRiver",
+      "ForestPond",
+      "Town"
+    ],
+    "Winter": [
+      "ForestRiver",
+      "ForestPond",
+      "Town"
+    ]
+  },
+  {
+    "id": "145",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Sunfish",
+    "chanceToDart": "30",
+    "dartingRandomness": "mixed",
+    "minSize": "5",
+    "maxSize": "15",
+    "timeRanges": "600 1900",
+    "weather": "sunny",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "30",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Sunfish",
+    "description": "A common river fish.",
+    "Spring": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Summer": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Fall": [
+      "fishingGame",
+      "Temp"
+    ],
+    "Winter": [
+      "fishingGame",
+      "Temp"
+    ]
+  },
+  {
+    "id": "146",
+    "availableSeasons": [
+      "Summer",
+      "Winter",
+      "Spring",
+      "Fall"
+    ],
+    "name": "Red Mullet",
+    "chanceToDart": "55",
+    "dartingRandomness": "smooth",
+    "minSize": "8",
+    "maxSize": "22",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".15",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Red Mullet",
+    "description": "Long ago these were kept as pets.",
+    "Summer": [
+      "Beach",
+      "IslandSecret"
+    ],
+    "Winter": [
+      "Beach",
+      "IslandSecret"
+    ],
+    "Spring": [
+      "IslandSecret"
+    ],
+    "Fall": [
+      "IslandSecret"
+    ]
+  },
+  {
+    "id": "147",
+    "availableSeasons": [
+      "Spring",
+      "Winter"
+    ],
+    "name": "Herring",
+    "chanceToDart": "25",
+    "dartingRandomness": "dart",
+    "minSize": "8",
+    "maxSize": "20",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "30",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Herring",
+    "description": "A common ocean fish.",
+    "Spring": [
+      "Beach"
+    ],
+    "Winter": [
+      "Beach"
+    ]
+  },
+  {
+    "id": "148",
+    "availableSeasons": [
+      "Spring",
+      "Fall"
+    ],
+    "name": "Eel",
+    "chanceToDart": "70",
+    "dartingRandomness": "smooth",
+    "minSize": "12",
+    "maxSize": "80",
+    "timeRanges": "1600 2600",
+    "weather": "rainy",
+    "maxDepth": "3",
+    "spawnMultiplier": ".55",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "85",
+    "edibility": "12",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Eel",
+    "description": "A long, slippery little fish.",
+    "Spring": [
+      "Beach"
+    ],
+    "Fall": [
+      "Beach"
+    ]
+  },
+  {
+    "id": "149",
+    "availableSeasons": [
+      "Summer",
+      "Spring",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Octopus",
+    "chanceToDart": "95",
+    "dartingRandomness": "sinker",
+    "minSize": "12",
+    "maxSize": "48",
+    "timeRanges": "600 1300",
+    "weather": "both",
+    "maxDepth": "5",
+    "spawnMultiplier": ".1",
+    "depthMultiplier": ".08",
+    "fishingLevel": "0",
+    "price": "150",
+    "edibility": "-300",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Octopus",
+    "description": "A mysterious and intelligent creature.",
+    "Summer": [
+      "Beach",
+      "IslandWestOcean"
+    ],
+    "Spring": [
+      "IslandWestOcean"
+    ],
+    "Fall": [
+      "IslandWestOcean"
+    ],
+    "Winter": [
+      "IslandWestOcean"
+    ]
+  },
+  {
+    "id": "150",
+    "availableSeasons": [
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Red Snapper",
+    "chanceToDart": "40",
+    "dartingRandomness": "mixed",
+    "minSize": "8",
+    "maxSize": "25",
+    "timeRanges": "600 1900",
+    "weather": "rainy",
+    "maxDepth": "2",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "50",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Red Snapper",
+    "description": "A popular fish with a nice red color.",
+    "Summer": [
+      "Beach"
+    ],
+    "Fall": [
+      "Beach"
+    ],
+    "Winter": [
+      "Beach"
+    ]
+  },
+  {
+    "id": "151",
+    "availableSeasons": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "name": "Squid",
+    "chanceToDart": "75",
+    "dartingRandomness": "sinker",
+    "minSize": "12",
+    "maxSize": "48",
+    "timeRanges": "1800 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".35",
+    "depthMultiplier": ".3",
+    "fishingLevel": "0",
+    "price": "80",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Squid",
+    "description": "A deep sea creature that can grow to enormous size.",
+    "Winter": [
+      "Beach",
+      "IslandSecret"
+    ],
+    "Spring": [
+      "IslandSecret"
+    ],
+    "Summer": [
+      "IslandSecret"
+    ],
+    "Fall": [
+      "IslandSecret"
+    ]
+  },
+  {
+    "id": "154",
+    "availableSeasons": [
+      "Fall",
+      "Winter"
+    ],
+    "name": "Sea Cucumber",
+    "chanceToDart": "40",
+    "dartingRandomness": "sinker",
+    "minSize": "3",
+    "maxSize": "20",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".25",
+    "depthMultiplier": ".25",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "-10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Sea Cucumber",
+    "description": "A slippery, slimy creature found on the ocean floor.",
+    "Fall": [
+      "Beach"
+    ],
+    "Winter": [
+      "Beach"
+    ]
+  },
+  {
+    "id": "155",
+    "availableSeasons": [
+      "Summer",
+      "Fall",
+      "Spring",
+      "Winter"
+    ],
+    "name": "Super Cucumber",
+    "chanceToDart": "80",
+    "dartingRandomness": "sinker",
+    "minSize": "12",
+    "maxSize": "36",
+    "timeRanges": "1800 2600",
+    "weather": "both",
+    "maxDepth": "4",
+    "spawnMultiplier": ".1",
+    "depthMultiplier": ".25",
+    "fishingLevel": "0",
+    "price": "250",
+    "edibility": "50",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Super Cucumber",
+    "description": "A rare, purple variety of sea cucumber.",
+    "Summer": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Fall": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Spring": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Winter": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ]
+  },
+  {
+    "id": "156",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Ghostfish",
+    "chanceToDart": "50",
+    "dartingRandomness": "mixed",
+    "minSize": "10",
+    "maxSize": "35",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".3",
+    "depthMultiplier": ".3",
+    "fishingLevel": "0",
+    "price": "45",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Ghostfish",
+    "description": "A pale, blind fish found in underground lakes.",
+    "Spring": [
+      "UndergroundMine"
+    ],
+    "Summer": [
+      "UndergroundMine"
+    ],
+    "Fall": [
+      "UndergroundMine"
+    ],
+    "Winter": [
+      "UndergroundMine"
+    ]
+  },
+  {
+    "id": "158",
+    "availableSeasons": [],
+    "name": "Stonefish",
+    "chanceToDart": "65",
+    "dartingRandomness": "sinker",
+    "minSize": "15",
+    "maxSize": "15",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".1",
+    "depthMultiplier": ".1",
+    "fishingLevel": "3",
+    "price": "300",
+    "edibility": "-300",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Stonefish",
+    "description": "A bizarre fish that's shaped like a brick."
+  },
+  {
+    "id": "159",
+    "availableSeasons": [],
+    "name": "Crimsonfish",
+    "chanceToDart": "95",
+    "dartingRandomness": "mixed",
+    "minSize": "20",
+    "maxSize": "20",
+    "timeRanges": "600 2000",
+    "weather": "both",
+    "maxDepth": "4",
+    "spawnMultiplier": ".1",
+    "depthMultiplier": ".1",
+    "fishingLevel": "5",
+    "price": "1500",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Crimsonfish",
+    "description": "Lives deep in the ocean but likes to lay its eggs in the warm summer water."
+  },
+  {
+    "id": "160",
+    "availableSeasons": [],
+    "name": "Angler",
+    "chanceToDart": "85",
+    "dartingRandomness": "smooth",
+    "minSize": "18",
+    "maxSize": "18",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "4",
+    "spawnMultiplier": ".05",
+    "depthMultiplier": ".1",
+    "fishingLevel": "3",
+    "price": "900",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Angler",
+    "description": "Uses a bioluminescent dangler to attract prey."
+  },
+  {
+    "id": "161",
+    "availableSeasons": [],
+    "name": "Ice Pip",
+    "chanceToDart": "85",
+    "dartingRandomness": "dart",
+    "minSize": "8",
+    "maxSize": "8",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".05",
+    "depthMultiplier": ".1",
+    "fishingLevel": "5",
+    "price": "500",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Ice Pip",
+    "description": "A rare fish that thrives in extremely cold conditions."
+  },
+  {
+    "id": "162",
+    "availableSeasons": [],
+    "name": "Lava Eel",
+    "chanceToDart": "90",
+    "dartingRandomness": "mixed",
+    "minSize": "32",
+    "maxSize": "32",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".05",
+    "depthMultiplier": ".1",
+    "fishingLevel": "7",
+    "price": "700",
+    "edibility": "20",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Lava Eel",
+    "description": "It can somehow survive in pools of red-hot lava."
+  },
+  {
+    "id": "163",
+    "availableSeasons": [
+      "Spring"
+    ],
+    "name": "Legend",
+    "chanceToDart": "110",
+    "dartingRandomness": "mixed",
+    "minSize": "50",
+    "maxSize": "50",
+    "timeRanges": "600 2000",
+    "weather": "rainy",
+    "maxDepth": "5",
+    "spawnMultiplier": "0",
+    "depthMultiplier": ".1",
+    "fishingLevel": "10",
+    "price": "5000",
+    "edibility": "200",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Legend",
+    "description": "The king of all fish! They said he'd never be caught.",
+    "Spring": [
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "164",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Sandfish",
+    "chanceToDart": "65",
+    "dartingRandomness": "mixed",
+    "minSize": "8",
+    "maxSize": "24",
+    "timeRanges": "600 2000",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".65",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "5",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Sandfish",
+    "description": "It tries to hide using camouflage.",
+    "Spring": [
+      "Desert"
+    ],
+    "Summer": [
+      "Desert"
+    ],
+    "Fall": [
+      "Desert"
+    ],
+    "Winter": [
+      "Desert"
+    ]
+  },
+  {
+    "id": "165",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Scorpion Carp",
+    "chanceToDart": "90",
+    "dartingRandomness": "dart",
+    "minSize": "12",
+    "maxSize": "32",
+    "timeRanges": "600 2000",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".15",
+    "depthMultiplier": ".1",
+    "fishingLevel": "4",
+    "price": "150",
+    "edibility": "-50",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Scorpion Carp",
+    "description": "It's like a regular carp but with a sharp stinger.",
+    "Spring": [
+      "Desert"
+    ],
+    "Summer": [
+      "Desert"
+    ],
+    "Fall": [
+      "Desert"
+    ],
+    "Winter": [
+      "Desert"
+    ]
+  },
+  {
+    "id": "267",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Flounder",
+    "chanceToDart": "50",
+    "dartingRandomness": "sinker",
+    "minSize": "4",
+    "maxSize": "16",
+    "timeRanges": "600 2000",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".15",
+    "depthMultiplier": ".05",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Flounder",
+    "description": "It lives on the bottom, so both eyes are on top of its head.",
+    "Spring": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Summer": [
+      "Beach",
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Fall": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Winter": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast",
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ]
+  },
+  {
+    "id": "269",
+    "availableSeasons": [
+      "Fall",
+      "Winter",
+      "Spring",
+      "Summer"
+    ],
+    "name": "Midnight Carp",
+    "chanceToDart": "55",
+    "dartingRandomness": "mixed",
+    "minSize": "12",
+    "maxSize": "52",
+    "timeRanges": "2200 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".33",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "150",
+    "edibility": "20",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Midnight Carp",
+    "description": "This shy fish only feels comfortable at night.",
+    "Fall": [
+      "ForestPond",
+      "Mountain",
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Winter": [
+      "ForestPond",
+      "Mountain",
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Spring": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Summer": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ]
+  },
+  {
+    "id": "682",
+    "availableSeasons": [],
+    "name": "Mutant Carp",
+    "chanceToDart": "80",
+    "dartingRandomness": "dart",
+    "minSize": "36",
+    "maxSize": "36",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "5",
+    "spawnMultiplier": "0",
+    "depthMultiplier": ".02",
+    "fishingLevel": "0",
+    "price": "1000",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Mutant Carp",
+    "description": "The strange waters of the sewer turned this carp into a monstrosity."
+  },
+  {
+    "id": "698",
+    "availableSeasons": [
+      "Summer",
+      "Winter"
+    ],
+    "name": "Sturgeon",
+    "chanceToDart": "78",
+    "dartingRandomness": "mixed",
+    "minSize": "12",
+    "maxSize": "60",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".35",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "200",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Sturgeon",
+    "description": "An ancient bottom-feeder with a dwindling population. Females can live up to 150 years.",
+    "Summer": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Winter": [
+      "Mountain",
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "699",
+    "availableSeasons": [
+      "Fall",
+      "Winter"
+    ],
+    "name": "Tiger Trout",
+    "chanceToDart": "60",
+    "dartingRandomness": "dart",
+    "minSize": "10",
+    "maxSize": "20",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".2",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "150",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Tiger Trout",
+    "description": "A rare hybrid trout that cannot bear offspring of its own.",
+    "Fall": [
+      "ForestRiver",
+      "Town"
+    ],
+    "Winter": [
+      "ForestRiver",
+      "Town"
+    ]
+  },
+  {
+    "id": "700",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Bullhead",
+    "chanceToDart": "46",
+    "dartingRandomness": "smooth",
+    "minSize": "12",
+    "maxSize": "30",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".35",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Bullhead",
+    "description": "A relative of the catfish that eats a variety of foods off the lake bottom.",
+    "Spring": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Summer": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Fall": [
+      "Mountain",
+      "Backwoods"
+    ],
+    "Winter": [
+      "Mountain",
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "701",
+    "availableSeasons": [
+      "Summer",
+      "Fall",
+      "Spring",
+      "Winter"
+    ],
+    "name": "Tilapia",
+    "chanceToDart": "50",
+    "dartingRandomness": "mixed",
+    "minSize": "11",
+    "maxSize": "30",
+    "timeRanges": "600 1400",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Tilapia",
+    "description": "A primarily vegetarian fish that prefers warm water.",
+    "Summer": [
+      "Beach",
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Fall": [
+      "Beach",
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Spring": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Winter": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ]
+  },
+  {
+    "id": "702",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Chub",
+    "chanceToDart": "35",
+    "dartingRandomness": "dart",
+    "minSize": "12",
+    "maxSize": "24",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".45",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "50",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Chub",
+    "description": "A common freshwater fish known for its voracious appetite.",
+    "Spring": [
+      "ForestRiver",
+      "Mountain",
+      "Backwoods",
+      "fishingGame",
+      "Temp"
+    ],
+    "Summer": [
+      "ForestRiver",
+      "Mountain",
+      "Backwoods",
+      "fishingGame",
+      "Temp"
+    ],
+    "Fall": [
+      "ForestRiver",
+      "Mountain",
+      "Backwoods",
+      "fishingGame",
+      "Temp"
+    ],
+    "Winter": [
+      "ForestRiver",
+      "Mountain",
+      "Backwoods",
+      "fishingGame",
+      "Temp"
+    ]
+  },
+  {
+    "id": "704",
+    "availableSeasons": [
+      "Summer"
+    ],
+    "name": "Dorado",
+    "chanceToDart": "78",
+    "dartingRandomness": "mixed",
+    "minSize": "24",
+    "maxSize": "32",
+    "timeRanges": "600 1900",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".15",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Dorado",
+    "description": "A fierce carnivore with brilliant orange scales.",
+    "Summer": [
+      "ForestRiver"
+    ]
+  },
+  {
+    "id": "705",
+    "availableSeasons": [
+      "Fall",
+      "Winter"
+    ],
+    "name": "Albacore",
+    "chanceToDart": "60",
+    "dartingRandomness": "mixed",
+    "minSize": "20",
+    "maxSize": "40",
+    "timeRanges": "600 1100 1800 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".3",
+    "depthMultiplier": ".15",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Albacore",
+    "description": "Prefers temperature \"edges\" where cool and warm water meet.",
+    "Fall": [
+      "Beach"
+    ],
+    "Winter": [
+      "Beach"
+    ]
+  },
+  {
+    "id": "706",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Shad",
+    "chanceToDart": "45",
+    "dartingRandomness": "smooth",
+    "minSize": "20",
+    "maxSize": "48",
+    "timeRanges": "900 2600",
+    "weather": "rainy",
+    "maxDepth": "2",
+    "spawnMultiplier": ".35",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "60",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Shad",
+    "description": "Lives in a school at sea, but returns to the rivers to spawn.",
+    "Spring": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Summer": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Fall": [
+      "ForestRiver",
+      "Town",
+      "fishingGame",
+      "Temp"
+    ],
+    "Winter": [
+      "fishingGame",
+      "Temp"
+    ]
+  },
+  {
+    "id": "707",
+    "availableSeasons": [
+      "Winter"
+    ],
+    "name": "Lingcod",
+    "chanceToDart": "85",
+    "dartingRandomness": "mixed",
+    "minSize": "30",
+    "maxSize": "50",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".3",
+    "depthMultiplier": ".05",
+    "fishingLevel": "0",
+    "price": "120",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Lingcod",
+    "description": "A fearsome predator that will eat almost anything it can cram into its mouth.",
+    "Winter": [
+      "ForestRiver",
+      "Town",
+      "Mountain",
+      "Backwoods"
+    ]
+  },
+  {
+    "id": "708",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Winter",
+      "Fall"
+    ],
+    "name": "Halibut",
+    "chanceToDart": "50",
+    "dartingRandomness": "sinker",
+    "minSize": "10",
+    "maxSize": "33",
+    "timeRanges": "600 1100 1900 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".2",
+    "fishingLevel": "0",
+    "price": "80",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Halibut",
+    "description": "A flat fish that lives on the ocean floor.",
+    "Spring": [
+      "Beach",
+      "IslandSecret"
+    ],
+    "Summer": [
+      "Beach",
+      "IslandSecret"
+    ],
+    "Winter": [
+      "Beach",
+      "IslandSecret"
+    ],
+    "Fall": [
+      "IslandSecret"
+    ]
+  },
+  {
+    "id": "734",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Woodskip",
+    "chanceToDart": "50",
+    "dartingRandomness": "mixed",
+    "minSize": "11",
+    "maxSize": "30",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".2",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "75",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Woodskip",
+    "description": "A very sensitive fish that can only live in pools deep in the forest.",
+    "Spring": [
+      "Woods"
+    ],
+    "Summer": [
+      "Woods"
+    ],
+    "Fall": [
+      "Woods"
+    ],
+    "Winter": [
+      "Woods"
+    ]
+  },
+  {
+    "id": "775",
+    "availableSeasons": [],
+    "name": "Glacierfish",
+    "chanceToDart": "100",
+    "dartingRandomness": "mixed",
+    "minSize": "27",
+    "maxSize": "27",
+    "timeRanges": "600 2000",
+    "weather": "sunny",
+    "maxDepth": "5",
+    "spawnMultiplier": "0",
+    "depthMultiplier": ".02",
+    "fishingLevel": "7",
+    "price": "1000",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Glacierfish",
+    "description": "Builds a nest on the underside of glaciers."
+  },
+  {
+    "id": "795",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Void Salmon",
+    "chanceToDart": "80",
+    "dartingRandomness": "mixed",
+    "minSize": "24",
+    "maxSize": "65",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "2",
+    "spawnMultiplier": ".33",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "150",
+    "edibility": "25",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Void Salmon",
+    "description": "A salmon, twisted by void energy. The fresh meat is jet black, but rapidly turns pink when exposed to air.",
+    "Spring": [
+      "WitchSwamp"
+    ],
+    "Summer": [
+      "WitchSwamp"
+    ],
+    "Fall": [
+      "WitchSwamp"
+    ],
+    "Winter": [
+      "WitchSwamp"
+    ]
+  },
+  {
+    "id": "796",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Slimejack",
+    "chanceToDart": "55",
+    "dartingRandomness": "dart",
+    "minSize": "8",
+    "maxSize": "25",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Slimejack",
+    "description": "He's coated in a very thick layer of slime. He keeps slipping out of your hands!",
+    "Spring": [
+      "BugLand"
+    ],
+    "Summer": [
+      "BugLand"
+    ],
+    "Fall": [
+      "BugLand"
+    ],
+    "Winter": [
+      "BugLand"
+    ]
+  },
+  {
+    "id": "798",
+    "availableSeasons": [],
+    "name": "Midnight Squid",
+    "chanceToDart": "55",
+    "dartingRandomness": "sinker",
+    "minSize": "8",
+    "maxSize": "25",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Midnight Squid",
+    "description": "A strange and mysterious denizen of the ocean's twilight depths."
+  },
+  {
+    "id": "799",
+    "availableSeasons": [],
+    "name": "Spook Fish",
+    "chanceToDart": "60",
+    "dartingRandomness": "dart",
+    "minSize": "8",
+    "maxSize": "25",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "220",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Spook Fish",
+    "description": "The huge eyes can detect the faint silhouettes of prey."
+  },
+  {
+    "id": "800",
+    "availableSeasons": [],
+    "name": "Blobfish",
+    "chanceToDart": "75",
+    "dartingRandomness": "floater",
+    "minSize": "8",
+    "maxSize": "25",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "500",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Blobfish",
+    "description": "This odd creature floats above the ocean floor, consuming any edible material in its path."
+  },
+  {
+    "id": "836",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Stingray",
+    "chanceToDart": "80",
+    "dartingRandomness": "sinker",
+    "minSize": "18",
+    "maxSize": "60",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "4",
+    "spawnMultiplier": ".2",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "180",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Stingray",
+    "description": "Despite having a toxic stinger, these fish are shy and prefer to avoid humans.",
+    "Spring": [
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Summer": [
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Fall": [
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ],
+    "Winter": [
+      "IslandSouthEastCave",
+      "IslandSecret"
+    ]
+  },
+  {
+    "id": "837",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Lionfish",
+    "chanceToDart": "50",
+    "dartingRandomness": "smooth",
+    "minSize": "3",
+    "maxSize": "12",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "3",
+    "spawnMultiplier": ".4",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "100",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Lionfish",
+    "description": "An aggressive, predatory fish with venomous spines.",
+    "Spring": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast"
+    ],
+    "Summer": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast"
+    ],
+    "Fall": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast"
+    ],
+    "Winter": [
+      "IslandSouth",
+      "IslandWestOcean",
+      "IslandSouthEast"
+    ]
+  },
+  {
+    "id": "838",
+    "availableSeasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "name": "Blue Discus",
+    "chanceToDart": "60",
+    "dartingRandomness": "dart",
+    "minSize": "2",
+    "maxSize": "9",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "1",
+    "spawnMultiplier": ".25",
+    "depthMultiplier": ".1",
+    "fishingLevel": "0",
+    "price": "120",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Blue Discus",
+    "description": "A brightly colored tropical fish that is popular in aquariums.",
+    "Spring": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Summer": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Fall": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ],
+    "Winter": [
+      "IslandNorth",
+      "IslandWestRiver"
+    ]
+  },
+  {
+    "id": "898",
+    "availableSeasons": [],
+    "name": "Son of Crimsonfish",
+    "chanceToDart": "95",
+    "dartingRandomness": "mixed",
+    "minSize": "20",
+    "maxSize": "20",
+    "timeRanges": "600 2000",
+    "weather": "both",
+    "maxDepth": "4",
+    "spawnMultiplier": ".1",
+    "depthMultiplier": ".1",
+    "fishingLevel": "5",
+    "price": "1500",
+    "edibility": "15",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Son of Crimsonfish",
+    "description": "He hatched in the warm summer water, and followed in the footsteps of his father."
+  },
+  {
+    "id": "899",
+    "availableSeasons": [],
+    "name": "Ms. Angler",
+    "chanceToDart": "85",
+    "dartingRandomness": "smooth",
+    "minSize": "18",
+    "maxSize": "18",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "4",
+    "spawnMultiplier": ".05",
+    "depthMultiplier": ".1",
+    "fishingLevel": "3",
+    "price": "900",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Ms. Angler",
+    "description": "Uses a bioluminescent dangler to attract prey."
+  },
+  {
+    "id": "900",
+    "availableSeasons": [],
+    "name": "Legend II",
+    "chanceToDart": "110",
+    "dartingRandomness": "mixed",
+    "minSize": "50",
+    "maxSize": "50",
+    "timeRanges": "600 2000",
+    "weather": "rainy",
+    "maxDepth": "5",
+    "spawnMultiplier": "0",
+    "depthMultiplier": ".1",
+    "fishingLevel": "10",
+    "price": "5000",
+    "edibility": "200",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Legend II",
+    "description": "The successor to the original Legend."
+  },
+  {
+    "id": "901",
+    "availableSeasons": [],
+    "name": "Radioactive Carp",
+    "chanceToDart": "80",
+    "dartingRandomness": "dart",
+    "minSize": "36",
+    "maxSize": "36",
+    "timeRanges": "600 2600",
+    "weather": "both",
+    "maxDepth": "5",
+    "spawnMultiplier": "0",
+    "depthMultiplier": ".02",
+    "fishingLevel": "0",
+    "price": "1000",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Radioactive Carp",
+    "description": "A carp that spent one too many years in toxic sludge."
+  },
+  {
+    "id": "902",
+    "availableSeasons": [],
+    "name": "Glacierfish Jr.",
+    "chanceToDart": "100",
+    "dartingRandomness": "mixed",
+    "minSize": "27",
+    "maxSize": "27",
+    "timeRanges": "600 2000",
+    "weather": "sunny",
+    "maxDepth": "5",
+    "spawnMultiplier": "0",
+    "depthMultiplier": ".02",
+    "fishingLevel": "7",
+    "price": "1000",
+    "edibility": "10",
+    "type": "Fish",
+    "category": "-4",
+    "displayName": "Glacierfish Jr.",
+    "description": "The original Glacierfish had a son..."
   }
 ]

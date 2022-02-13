@@ -1,53 +1,43 @@
 const { ApolloServer, gql } = require("apollo-server");
-const { FishData } = require("./SmallFishData");
+// const { FishData } = require("./SmallFishData");
+const fs = require("fs");
+
+const FishData = JSON.parse(
+  fs.readFileSync("./fishData.json")
+);
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
 // your data.
 const typeDefs = gql`
-  enum Season {
-    SPRING
-    SUMMER
-    FALL
-    WINTER
-  }
-
-  enum Weather {
-    SUNNY
-    RAINY
-  }
-
-  enum Location {
-    OCEAN
-    RIVER
-    NIGHT_MARKET
-  }
-
-  type CatchOpportunity {
-    season: Season
-    weather: [Weather]
-    locations: [Location]
-    times: [String]
-  }
-
-  type Prices {
-    normal: Int
-    silver: Int
-    gold: Int
-    iridium: Int
-  }
-
   type Fish {
-    name: String
-    prices: Prices
-    catchOpportunities: [CatchOpportunity]
-    catchDifficulty: String
-    legendary: Boolean
-    bundle: String
+    id: ID!
+    name: String!
+    chanceToDart: Int!
+    dartingRandomness: String!
+    minSize: Int!
+    maxSize: Int!
+    timeRanges: String!
+    weather: String!
+    maxDepth: Int!
+    spawnMultiplier: Float!
+    depthMultiplier: Float!
+    fishingLevel: Int!
+    price: Int!
+    edibility: Int!
+    type: String!
+    category: Int!
+    displayName: String!
+    description: String!
+    availableSeasons: [String]!
+    Summer: [String!]
+    Spring: [String!]
+    Fall: [String!]
+    Winter: [String!]
   }
 
   type Query {
-    fish(name: String): [Fish]
+    fish(name: String, id: ID): [Fish]
     count: Int
   }
 
@@ -63,6 +53,7 @@ let totalCount = 0;
 const resolvers = {
   Query: {
     fish: (parent, args, context, info) => {
+      if (args.id) return FishData.filter((fish) => fish.id === args.id);
       return args.name ? FishData.filter((fish) => fish.name === args.name) : FishData;
     },
     count: (parent, args, context, info) => totalCount
